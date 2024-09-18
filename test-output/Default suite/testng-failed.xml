@@ -7,7 +7,9 @@
         <methods>
           <include name="tearDownMethod"/>
           <include name="TestCheckOut2"/>
+          <include name="TestCheckOut"/>
           <include name="setup"/>
+          <include name="TestCheckOut3"/>
           <include name="Teardown"/>
           <include name="genrateReport"/>
           <include name="setupSuite"/>
