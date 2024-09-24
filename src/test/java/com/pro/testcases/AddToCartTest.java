@@ -1,15 +1,18 @@
 package com.pro.testcases;
 
 import org.openqa.selenium.support.PageFactory;
-
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.pro.pages.TestBase;
+import com.beust.jcommander.Parameter;
 import com.pro.pages.AddToCart;
 import com.pro.pages.LoginPage;
 
 public class AddToCartTest extends TestBase {
 
+	
+	
 	@Test(priority = 1)
 
 	public void TestAddToCart() {

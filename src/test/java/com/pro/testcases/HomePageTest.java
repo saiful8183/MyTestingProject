@@ -2,7 +2,7 @@ package com.pro.testcases;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.pro.pages.TestBase;
@@ -15,6 +15,7 @@ import com.pro.pages.LoginPage;
 import com.pro.pages.LoginPageToHomePage;
 
 public class HomePageTest extends TestBase {
+
 
 	@Test(priority = 1)
 	public void Testswaglablogin() {

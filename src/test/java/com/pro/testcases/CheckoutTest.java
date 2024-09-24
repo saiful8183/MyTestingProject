@@ -2,6 +2,7 @@ package com.pro.testcases;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.pro.pages.TestBase;
@@ -57,6 +58,7 @@ public class CheckoutTest extends TestBase {
 
 	}
 	
+	
 	@Test(priority=2)
 	
 	public void TestCheckOut2() {
@@ -98,6 +100,8 @@ public class CheckoutTest extends TestBase {
 		// chectOut.swaglabCheckoutCart();
 		
 	}
+	
+
 	@Test(priority=3)
 	
 	public void TestCheckOut3() {
